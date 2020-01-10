@@ -1,0 +1,25 @@
+{
+  "folders": [
+	{
+		"name": "Rent-a-Swag",
+		"path": "/Users/davidmason/Desktop/Projects/Rent-a-Swag"
+	},
+	{
+		"name": "Bootstrap Website",
+		"path": "/Users/davidmason/Desktop/Projects/Bootstrap Website"
+	},
+	{
+		"path": "/Users/davidmason/Desktop/Projects/Udemy"
+	},
+	{
+		"path": "/Users/davidmason/Desktop/react-app"
+	},
+	{
+		"path": "/Users/davidmason/Desktop/Projects"
+	}
+],
+  "settings": {
+    "git.ignoreLimitWarning": true,
+    "liveServer.settings.multiRootWorkspaceName": "Udemy"
+  }
+}
