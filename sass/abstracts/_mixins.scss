@@ -25,18 +25,14 @@
 
 */
 
-@mixin respond-phone {
-  @media (max-width: 600px) {
-    @content;
-  }
-}
-
 /*
 $breakpoint arguement choices:
 -phone
 -tab-port
 -tab-land
 -big-desktop
+
+ORDER: Base + Typography > general layoout + grid > page layout > components;
 
 */
 @mixin respond($breakpoint) {

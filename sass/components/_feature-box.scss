@@ -7,6 +7,9 @@
   box-shadow: 0 1.5rem 4rem rgba($color-black, 0.15);
   transition: transform 0.3s;
 
+  @include respond(tab_port) {
+    padding: 2reml;
+  }
   &__icon {
     font-size: 6rem;
     margin-bottom: 0.5rem;
@@ -18,6 +21,10 @@
     );
     -webkit-background-clip: text;
     color: transparent;
+
+    @include respond(tab_port) {
+      margin-bottom: 0;
+    }
   }
 
   &:hover {
